@@ -1,0 +1,52 @@
+@import 'template';
+@import 'colors';
+
+body {
+    margin: 1rem;
+    background-color: $border;
+}
+.card {
+    margin: 1rem;
+    display: flex;
+    background-color: $background;
+}
+
+.info-interior {
+    margin: 1rem;
+    background-color: $card;
+}
+.info-side {
+    margin: 1rem;
+    flex: 75%;
+    background-color: $background;
+    .info-interior {
+        padding: 2rem;
+        .linked-in {
+            i {
+                background-color: $linkedin;
+                size: 150%;
+            }
+            p {
+                display: inline;
+            }
+    }
+}
+}
+
+.image-side {
+    flex: 25%;
+    text-align: center;
+    img {
+        width: 100%;
+    }
+    h1{
+        font-size: 1.25rem;
+        font-weight: bolder;
+        color: #36454F;
+    }
+    h2{
+        font-size: 1rem;
+        font-style: italic;
+        color: #36454F
+    }
+}

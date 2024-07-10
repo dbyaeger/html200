@@ -2,7 +2,7 @@
 @import 'colors';
 
 body {
-    margin: 1rem;
+    margin: 2rem;
     background-color: $border;
 }
 .card {
@@ -16,16 +16,14 @@ body {
     background-color: $card;
 }
 .info-side {
-    margin: 1rem;
+    padding: 1rem;
     flex: 75%;
     background-color: $background;
     .info-interior {
-        padding: 2rem;
+        padding: 1rem;
         .linked-in {
-            i {
-                background-color: $linkedin;
-                size: 150%;
-            }
+            padding-top: 1rem;
+            padding-bottom: 1rem;
             p {
                 display: inline;
             }
@@ -36,6 +34,7 @@ body {
 .image-side {
     flex: 25%;
     text-align: center;
+    padding: 2rem;
     img {
         width: 100%;
     }
